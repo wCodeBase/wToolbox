@@ -1,0 +1,28 @@
+{
+  "name": "wtoolbox",
+  "version": "0.0.1-alpha-1",
+  "description": "A collection of tools base on electron platform.",
+  "bin": {
+    "wtoolbox": "index.js",
+    "wfinder": "node_modules/wfinder/dist/main.js"
+  },
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wCodeBase/wToolbox.git"
+  },
+  "author": "wCodeBase",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wCodeBase/wToolbox/issues"
+  },
+  "homepage": "https://github.com/wCodeBase/wToolbox#readme",
+  "dependencies": {
+    "electron": "^13.1.7",
+    "wfinder": "^0.0.1-alpha-1"
+  },
+  "files": [
+    "index.js"
+  ]
+}
